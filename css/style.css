@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  'Times New Roman', Times, serif;
+    background: url('https://planiada.ro/www/uploads/586/310.Cl_direa_Teatrului_de_Stat_din_Oradea_1.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: rgba(128, 51, 34, 0.85); /* fundal roșcat semi-transparent */
+    padding: 40px;
+    color: #fdfdfd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    line-height: 1.7;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #f79b89;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #441a0c;
+    padding-bottom: 5px;
+  }
+  
+  p {
+    margin: 15px 0;
+  }
+  
+  ul, ol {
+    padding-left: 30px;
+    margin: 10px 0 20px 0;
+  }
+  
+  ul li, ol li {
+    margin-bottom: 5px;
+  }
+  
+  strong {
+    color: #ffd7c2;
+  }
+  
+  .posters {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .posters img {
+    width: 130px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  }
